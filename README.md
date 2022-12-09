@@ -7,7 +7,16 @@ A spark and ray application, developed in a Google Cloud Platform (GCP) environm
 
 
 
+
+
 ## Prerequisites
+- Python 3.10.6
+- Hadoop 3.3.4
+- Spark 3.3.0
+- Ray 2.1.0
+- Jupyter notebook
+- Google Cloud Platform
+
 
 
 
