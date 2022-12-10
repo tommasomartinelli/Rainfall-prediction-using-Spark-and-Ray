@@ -14,8 +14,8 @@ A total of five scripts were made, the first two relating to the part in Ray, th
 [2. Script Ray](/src/ray/RayOnLocalMachine.ipynb): Development on GCP, with a VM consisting of 16 vCPUs and 60 GB of RAM.
 
 <!-- -->
-[1. Spark Scripts](src/spark/SparkClassification.ipynb): Local development via VM, with data load done via HDFS.
 
+[1. Spark Scripts](src/spark/SparkClassification.ipynb): Local development via VM, with data load done via HDFS.
 [2. Spark Script](src/spark/SparkClassificationOnCluster.ipynb): Developing on GCP, with a cluster consisting of 1 master and 3 workers, each having 2 vCPUs and 7.5GB of RAM.
 
 [3. Spark Script](src/spark/SparkClassificationOnCluster2.ipynb): Development on GCP, with a cluster composed by 1 master and 3 workers, each of them having 4 vCPUs and 15 GB of RAM.
