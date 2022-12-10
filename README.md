@@ -9,13 +9,13 @@ The purpose of the dataset is to make binary classification on the 'Rain_Tomorro
 
 A total of five scripts were made, the first two relating to the part in Ray, the last three relating to Spark. Each script represents a different configuration with which they were developed. We wanted to implement horizontal scalability for Spark, thus adding more nodes to the cluster, while we used a vertical approach for Ray, building a very powerful machine in terms of calculation:
 
-[1. Script Ray](/src/ray/RayOnGCP.ipynb): Local development on VM, with data loading done via HDFS.
+[1. Ray Script](/src/ray/RayOnGCP.ipynb): Local development on VM, with data loading done via HDFS.
 
-[2. Script Ray](/src/ray/RayOnLocalMachine.ipynb): Development on GCP, with a VM consisting of 16 vCPUs and 60 GB of RAM.
+[2. Ray Script](/src/ray/RayOnLocalMachine.ipynb): Development on GCP, with a VM consisting of 16 vCPUs and 60 GB of RAM.
 
 <!-- -->
 
-[1. Spark Scripts](src/spark/SparkClassification.ipynb): Local development via VM, with data load done via HDFS.
+[1. Spark Script](src/spark/SparkClassification.ipynb): Local development via VM, with data load done via HDFS.
 
 [2. Spark Script](src/spark/SparkClassificationOnCluster.ipynb): Developing on GCP, with a cluster consisting of 1 master and 3 workers, each having 2 vCPUs and 7.5GB of RAM.
 
@@ -24,6 +24,7 @@ A total of five scripts were made, the first two relating to the part in Ray, th
 
 
 ## Prerequisites
+- Ubuntu (22.04.1)
 - Python (3.10.6)
 - Hadoop (3.3.4)
 - Spark (3.3.0)
@@ -35,3 +36,4 @@ A total of five scripts were made, the first two relating to the part in Ray, th
 
 
 ## Usage
+As for the locally executed scripts, they can be tested simply by loading the dataset into your VM, via HDFS. Once Jupyter is started, the above scripts can be run (1 Ray Script, 1 Spark Script)
