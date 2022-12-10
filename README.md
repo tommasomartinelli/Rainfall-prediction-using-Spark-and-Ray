@@ -36,4 +36,4 @@ A total of five scripts were made, the first two relating to the part in Ray, th
 
 
 ## Usage
-As for the locally executed scripts, they can be tested simply by loading the dataset into your VM, via HDFS. Once Jupyter is started, the above scripts can be run (1.Ray Script, 1.Spark Script)
+As for the locally executed scripts, they can be tested simply by loading the dataset into your VM, via HDFS. Once Jupyter is started, the above scripts can be run (1.Ray Script, 1.Spark Script). To test the version on gcp, you need to register at https://cloud.google.com/ with your Google account(you can activate a free trial period, with $300 to spend to try out the service), then you need to create a new project with a connected vm, load the dataset into a new bucket and finally create a cluster with the configurations you prefer. You can now test the other scripts on your cluster via the jupyter notebook interface.
