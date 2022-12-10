@@ -1,5 +1,5 @@
 # Big-Data-Project
-<img src="img/logo-ray.png" width="150">  <img src="img/Apache_Spark_logo.svg.png" width="125">
+<img src="img/logo-ray.png" width="150">  <img src="img/Apache_Spark_logo.svg.png" width="105">
 
 A spark and ray application, developed in a Google Cloud Platform (GCP) environment, to compare and analyze these two popular parallel computing frameworks for a machine learning task. 
 
@@ -36,4 +36,4 @@ A total of five scripts were made, the first two relating to the part in Ray, th
 
 
 ## Usage
-As for the locally executed scripts, they can be tested simply by loading the dataset into your VM, via HDFS. Once Jupyter is started, the above scripts can be run (1 Ray Script, 1 Spark Script)
+As for the locally executed scripts, they can be tested simply by loading the dataset into your VM, via HDFS. Once Jupyter is started, the above scripts can be run (1.Ray Script, 1.Spark Script)
