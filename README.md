@@ -8,7 +8,8 @@ The 'Rain in Australia' dataset, downloaded from [Kaggle](https://www.kaggle.com
 The purpose of the dataset is to make binary classification on the 'Rain_Tomorrow' label, i.e. being able to predict whether, on the day following the one for which the features were collected, it will rain or not, therefore RainTomorrow=1 (it will rain), or RainTomorrow =0 (it will not rain).
 
 A total of five scripts were made, the first two relating to the part in Ray, the last three relating to Spark. Each script represents a different configuration with which they were developed. We wanted to implement horizontal scalability for Spark, thus adding more nodes to the cluster, while we used a vertical approach for Ray, building a very powerful machine in terms of calculation:
-[1. Script Ray](/src/ray): Local development on VM, with data loading done via HDFS.
+
+[1. Script Ray](/src/ray/RayOnGCP.ipynb): Local development on VM, with data loading done via HDFS.
 2. Script Ray: Development on GCP, with a VM consisting of 16 vCPUs and 60 GB of RAM.
 <!-- -->
 1. Spark Scripts: Local development via VM, with data load done via HDFS.
